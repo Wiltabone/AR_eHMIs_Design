@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0067c7d20aaafce46a74c78d2dd8d9ae, type: 3}
+  m_Name: CompanionResourceSync
+  m_EditorClassIdentifier: 
+  m_Resources:
+  - m_AssetGuid: 
+    m_CloudGuid: 336ee81b-bd70-422a-b5cd-afba24836a91
+  - m_AssetGuid: 0289af963fff3470a8786c8cf4ae5f0a
+    m_CloudGuid: b20e127b-2b4f-4826-9f94-72544a44ca10
+  - m_AssetGuid: 11264ebeb6f304e24a845ab236860819
+    m_CloudGuid: 6f232c71-beb9-4372-816e-88cdff476aa1
+  - m_AssetGuid: 125af393a7d9e466da1c484ca84e00e4
+    m_CloudGuid: a8675936-1673-48bc-a1d9-4c4cd9c3fe2e
+  - m_AssetGuid: 1db6b1ee2abf7449e8546a8ae30e065d
+    m_CloudGuid: 63e587ba-1ead-473f-9d3d-4d2ff73d6b01
+  - m_AssetGuid: 272955f965803473095201a87b755d51
+    m_CloudGuid: 2ec62447-cd09-4f7b-86cf-2b596a627021
+  - m_AssetGuid: 3141be6c1ca864f30997f5b9f00943a5
+    m_CloudGuid: 2fa6f41b-75c4-42a9-b0cd-201640ff828a
+  - m_AssetGuid: 3e16bbc167cd04e1d9ef84728b183270
+    m_CloudGuid: cf031e53-6e73-4f3f-8b4f-f33e025e264e
+  - m_AssetGuid: 3fc9a69edf93e4987bee434460b4c54e
+    m_CloudGuid: b20e127b-2b4f-4826-9f94-72544a44ca10
+  - m_AssetGuid: 4e8cc87e35c6e4d4fbbccdb66d8a8835
+    m_CloudGuid: 2ec62447-cd09-4f7b-86cf-2b596a627021
+  - m_AssetGuid: 4fe48f6eca2eb49aa909e234e7eea81c
+    m_CloudGuid: a8654e61-aa66-4441-a4fb-b09a30735917
+  - m_AssetGuid: 570e82647150044d6a11cf2a4ba54c49
+    m_CloudGuid: a3c9e95f-8333-42a2-8ca7-d8998a589f82
+  - m_AssetGuid: 5df9cc8bba1d243df9c0900f586f58a3
+    m_CloudGuid: bccc4d21-9430-4b59-8741-489cec13ac6c
+  - m_AssetGuid: 673d6e70ec7a44429a586cd8f936f590
+    m_CloudGuid: bbe42a4a-5de8-47f1-aba8-eb874d6c2c4b
+  - m_AssetGuid: 6b1f4a630155243aeb810cbcf0fe212a
+    m_CloudGuid: 336ee81b-bd70-422a-b5cd-afba24836a91
+  - m_AssetGuid: 787f9ed1b27e94b6bbc85551fe17cf6f
+    m_CloudGuid: a291b1fa-1986-4b35-b5c9-55d561669d73
+  - m_AssetGuid: 7f963f200cd394498ad0c741f3d22596
+    m_CloudGuid: 2fa6f41b-75c4-42a9-b0cd-201640ff828a
+  - m_AssetGuid: 921b8456241b74ac7a0c272c8804a084
+    m_CloudGuid: 230eaa42-d373-4fb8-b442-b429acc3cc09
+  - m_AssetGuid: 93f7a3f1cf01c41bb835ef73773d2ce4
+    m_CloudGuid: 4f08aa4c-787d-441e-b256-849ca142543f
+  - m_AssetGuid: a0a5597056b0946979f5a1b62020f290
+    m_CloudGuid: c903d3aa-a31d-4134-8061-2416200bc9ac
+  - m_AssetGuid: a1cf7c96d46394f3994138d7e70845a2
+    m_CloudGuid: 16cca628-786e-477e-86f0-44e44d29ae2c
+  - m_AssetGuid: bf101579917d340179e455d9c3189294
+    m_CloudGuid: ed18d7fd-e895-4175-b938-df7801d6ae53
+  - m_AssetGuid: d0194c76d09cb4457ab5acc38313eb72
+    m_CloudGuid: 41f9195e-fffc-4752-927b-0ac74d9f481e
+  - m_AssetGuid: d20976672b0764be6999c09322f6c900
+    m_CloudGuid: 2fa6f41b-75c4-42a9-b0cd-201640ff828a
+  - m_AssetGuid: ea4a49c243d0542928336bcdf072b922
+    m_CloudGuid: 91115dbe-771d-4402-8c15-644baea849c6
+  - m_AssetGuid: ecc92fc57e8114498997ed80ebf09f3c
+    m_CloudGuid: 6a9e46e9-0b7e-41af-87c3-d139d224f3e8
+  - m_AssetGuid: f6e41e45bf0dc4e4ea10f118e86edb94
+    m_CloudGuid: 336ee81b-bd70-422a-b5cd-afba24836a91
+  - m_AssetGuid: fe153eea63d6f4e92b13c96c6f10e711
+    m_CloudGuid: 5c026a41-c9b0-4757-82cf-60419cf68d08
+  m_DefaultMarkerLibrary: {fileID: 11400000, guid: fa24aadee1250804d94ace2860926412,
+    type: 2}

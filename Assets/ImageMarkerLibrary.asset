@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d047b3ff28334c19afece99d54cfb46, type: 3}
+  m_Name: ImageMarkerLibrary
+  m_EditorClassIdentifier: 
+  m_Markers:
+  - m_SpecifySize: 1
+    m_Size: {x: 1, y: 1.431167}
+    m_Label: Car Proxy
+    m_Texture: {fileID: 2800000, guid: 7f5fc2abca0e742a38c1aa2a0000a740, type: 3}
+    m_MarkerDefinitionId:
+      m_GuidLow: 5144207428738113301
+      m_GuidHigh: 11002256557482814895
+  - m_SpecifySize: 1
+    m_Size: {x: 2, y: 2.862334}
+    m_Label: Crossing Proxy
+    m_Texture: {fileID: 2800000, guid: 40d3acb37127e4da5b8d7487045d3548, type: 3}
+    m_MarkerDefinitionId:
+      m_GuidLow: 5533047171373979887
+      m_GuidHigh: 12304262400227916729
+  - m_SpecifySize: 1
+    m_Size: {x: 4, y: 5.724668}
+    m_Label: Cross_NoCar
+    m_Texture: {fileID: 2800000, guid: 36323b6b075fc46459e07a4e0aecd96c, type: 3}
+    m_MarkerDefinitionId:
+      m_GuidLow: 5183088929772612645
+      m_GuidHigh: 6021802237316825776

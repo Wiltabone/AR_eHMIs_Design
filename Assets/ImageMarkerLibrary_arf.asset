@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ImageMarkerLibrary_arf
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5603820447404316657
+  m_GuidHigh: 9687260386128028814
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5144207428738113301
+      m_GuidHigh: 11002256557482814895
+    m_SerializedTextureGuid:
+      m_GuidLow: 8370725021036823211
+      m_GuidHigh: 4658692340253901112
+    m_Size: {x: 1, y: 1.431167}
+    m_SpecifySize: 1
+    m_Name: Car Proxy
+    m_Texture: {fileID: 2800000, guid: 7f5fc2abca0e742a38c1aa2a0000a740, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5533047171373979887
+      m_GuidHigh: 12304262400227916729
+    m_SerializedTextureGuid:
+      m_GuidLow: 16490617398975769779
+      m_GuidHigh: 5203167218530291035
+    m_Size: {x: 2, y: 2.862334}
+    m_SpecifySize: 1
+    m_Name: Crossing Proxy
+    m_Texture: {fileID: 2800000, guid: 40d3acb37127e4da5b8d7487045d3548, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5183088929772612645
+      m_GuidHigh: 6021802237316825776
+    m_SerializedTextureGuid:
+      m_GuidLow: 14151444034617490283
+      m_GuidHigh: 7843559755052933209
+    m_Size: {x: 4, y: 5.724668}
+    m_SpecifySize: 1
+    m_Name: Cross_NoCar
+    m_Texture: {fileID: 2800000, guid: 36323b6b075fc46459e07a4e0aecd96c, type: 3}
