@@ -20,9 +20,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Concept8.unity
     guid: c03ab381a60e44ce88288caaa2c9ab57
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Concept5.unity
     guid: 8a6db374fcde34931b775dda0c89dac4
+  - enabled: 1
+    path: Assets/Scenes/Concept6.unity
+    guid: 43925ab2e4b984ba2a30311f49f3ace3
+  - enabled: 0
+    path: Assets/Scenes/Concept2.unity
+    guid: f60cfb28715da46b9a1c4c13c9e7435d
+  - enabled: 0
+    path: Assets/Scenes/Concept9.unity
+    guid: 3402548e9ee5343e18f2e9caf393f964
   m_configObjects:
     com.unity.mars-ar-foundation-providers.xr_subsystem_settings: {fileID: 11400000,
       guid: be2a161d8027a4b5ea245a424d6edd69, type: 2}

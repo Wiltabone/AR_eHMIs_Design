@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwapMat : MonoBehaviour
+public class SwapMats : MonoBehaviour
 {
     private Renderer renderer;
     public Material first_mat;
