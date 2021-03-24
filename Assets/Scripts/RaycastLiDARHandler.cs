@@ -14,25 +14,52 @@ public class RaycastLiDARHandler : MonoBehaviour
 
     private float distance;
 
-    
-    void Start()
-    {
-        
-    }
-
+    public float planeScaleFactor = 0.0f;
 
 
     void Update()
     {
 
-        //if (Input.touchCount == 0)
-        //return;
-
+        //ray cast from centre of screen and get distance from device to hitpoint
         if (arRaycastManager.Raycast(rayPos, hits, TrackableType.Planes))
-        //if (arRaycastManager.Raycast(rayPos, hits))
         {
             distance = hits[0].distance;
             print("DISTANCE: "+distance);
+
+            planeScaleFactor = scaleFactorCalc(distance);
+            print("ScaleFactor: " + planeScaleFactor);
+
         }
+
+        //re-size plane object
+
+    }
+
+    //returns the scale factor to use for the plane
+    private float scaleFactorCalc(float distance)
+    {
+        //normalise LiDAR distance to map between 0-5m to scale factor 0-1
+        float sF = normalise(distance, 0f, 5f);
+          
+        return sF;
+    }
+
+
+    /*
+        //remaps a float value from one scale to another (in this case, LiDAR distance 0 - 5m to scale factor 0 - 1)
+        private float reMap(float value, float from1, float to1, float from2, float to2)
+        {
+            return (value - from1) / (to1 - from1) * (to2 - from2) + from2;
+        }
+    */
+
+
+  
+    private float normalise(float value, float min, float max)
+    {
+
+        float normalisedValue = (value - min) / (max - min);
+
+        return normalisedValue;
     }
 }

@@ -398,6 +398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arRaycastManager: {fileID: 459585517}
+  planeScaleFactor: 0
 --- !u!4 &162899914
 Transform:
   m_ObjectHideFlags: 0
@@ -517,7 +518,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 184842469}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86b40deaa036d497abff1a2ef65afff0, type: 3}
+  m_Script: {fileID: 11500000, guid: 13f7c96d3da864b649f875f7619a39f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   new_mat: {fileID: 2100000, guid: 61376908551fb4f9097f16f395cf1e8e, type: 2}
@@ -749,6 +750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arRaycastManager: {fileID: 0}
+  planeScaleFactor: 0
 --- !u!1 &474677674
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,7 +910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &646607517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1917,6 +1919,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collider
+      objectReference: {fileID: 0}
+    - target: {fileID: 2868125344177116354, guid: 7c7ca812cf6894bbfb4b312984e7c7a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c7ca812cf6894bbfb4b312984e7c7a1, type: 3}
