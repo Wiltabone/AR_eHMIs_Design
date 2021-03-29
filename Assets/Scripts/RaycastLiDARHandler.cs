@@ -14,7 +14,7 @@ public class RaycastLiDARHandler : MonoBehaviour
 
     private float distance;
 
-    public float planeScaleFactor = 0.0f;
+    public static float planeScaleFactor = 0.0f;
 
 
     void Update()
