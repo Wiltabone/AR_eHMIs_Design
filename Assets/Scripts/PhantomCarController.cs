@@ -13,7 +13,7 @@ public class PhantomCarController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) || Input.touchCount > 0)
         {
             //shift position of phantom car to be before crossing
-            this.GetComponent<Transform>().transform.Translate(3f, 0f, 0f, Space.World);
+            this.GetComponent<Transform>().transform.Translate(1f, 0f, 0f, Space.World);
 
             renderer = GetComponent<Renderer>();
             //swap materials
