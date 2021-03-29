@@ -35,12 +35,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Concept3.unity
     guid: b4981a4e323514ecab36ca27108359e0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Concept7_inpro.unity
     guid: a4a720501bf674ab9beee5d0fdba553f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Concept4_inpro.unity
     guid: 4609dff6940284179802880b9f6a7e0f
+  - enabled: 0
+    path: Assets/MARS/Content/Samples/Templates/DirectPlacement/DirectPlacement.unity
+    guid: 1eebe30bf1b27ac418a99373e0ed7d8c
+  - enabled: 0
+    path: Assets/Scenes/Concept4_test.unity
+    guid: fb1fa008bcb48426fac215ed63d53a3e
   m_configObjects:
     com.unity.mars-ar-foundation-providers.xr_subsystem_settings: {fileID: 11400000,
       guid: be2a161d8027a4b5ea245a424d6edd69, type: 2}
