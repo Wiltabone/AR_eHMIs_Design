@@ -6,8 +6,6 @@ public class ScalingSetMat : MonoBehaviour
 {
     public Material new_mat;
 
-    private bool swapped = false;
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.touchCount > 0)
