@@ -28,7 +28,7 @@ public class HUDController : MonoBehaviour
             currSprite.sprite = newSprite;
 
             Text currText = GameObject.Find("Text").GetComponent<Text>();
-            currText.fontSize = 14;
+            currText.fontSize = 25;
             currText.horizontalOverflow = HorizontalWrapMode.Wrap;
             currText.verticalOverflow = VerticalWrapMode.Overflow;
             currText.text = newText;
